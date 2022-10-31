@@ -1,0 +1,188 @@
+:root {
+  --body-color: #757575;
+  --body-background: #f5f5f5;
+  --sub-color: #212121;
+  --sub-background: #2f303a;
+  --active-color: #2196f3;
+  --sub-second-color: #F5F4FA;
+  --white-color: #ffffff;
+}
+
+body {
+  font-family: "Roboto", sans-serif; 
+  color: var(--body-color);
+  background-color: var(--body-background);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+/* Навігація */
+
+.logo-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+}
+
+.logo-link span {
+  color: var(--active-color);
+}
+
+.nav {
+  background-color: var(--white-color);
+}
+
+.nav .link:hover,
+.nav .link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--active-color);
+}
+
+.nav .link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav .contacts-link {
+  color: inherit;
+  font-weight: 500;
+  
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/* Основна сторінка */
+.list {
+  list-style: none;
+}
+
+.link,
+.logo-link,
+.contacts-link {
+  text-decoration: none;
+}
+
+.link,
+.logo-link,
+.title {
+  color: var(--sub-color);
+}
+
+.link.current{
+  color: var(--active-color);
+}
+
+.button{
+  cursor: pointer;
+}
+
+.hero,
+footer {
+  background-color: var(--sub-background);
+}
+
+.hero-title {
+  color: var(--white-color);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  background-color: var(--active-color);
+  width: 216px;
+  height: 50px;
+}
+
+.about h3 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.about p {
+  line-height: 1.71;
+}
+
+.competence .main-title,
+.staff .main-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+
+.staff {
+  background-color: var(--sub-second-color);
+}
+
+.staff h3,
+.staff p {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.staff h3 {
+  font-weight: 500;
+}
+
+/* Футер */
+
+footer .contacts-link {
+  font-style: normal;
+  line-height: 1.7;
+  color: var(--white-color);
+  opacity: 0.6;
+}
+
+footer .logo-link {
+  color: var(--white-color);
+}
+
+.address {
+  font-style: normal;
+  line-height: 1.71;
+  color: var(--white-color);
+}
+
+/* Портфоліо */
+
+.portfolio button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  background-color: var(--sub-second-color);
+  color: var(--sub-color);
+}
+
+.portfolio button:hover,
+.portfolio button:focus{
+  color: var(--white-color);
+  background-color: var(--active-color);
+}
+
+.portfolio .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio .text {
+  color: var(--body-color);
+  font-size: 16px;
+  line-height: 1.88;
+}
