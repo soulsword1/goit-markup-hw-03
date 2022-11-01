@@ -42,7 +42,7 @@ ul {
   padding-left: 0;
 }
 
-img{
+img {
   display: block;
 }
 
@@ -94,7 +94,7 @@ nav {
   margin-left: 93px;
 }
 
-.nav-list .link{
+.nav-list .link {
   display: block;
   padding: 32px 0;
 }
@@ -105,7 +105,7 @@ nav {
 
 .nav .contacts-list {
   display: flex;
-  margin-left:auto;
+  margin-left: auto;
 }
 
 .contacts-list li:not(:first-child) {
@@ -235,7 +235,7 @@ section.hero {
   line-height: 1.19;
 }
 
-.staff-item .title{
+.staff-item .title {
   font-weight: 500;
   margin: 30px 0 10px 0;
 }
@@ -324,7 +324,6 @@ address .item:not(:last-child) {
   line-height: 1.88;
 }
 
-
 .portfolio .buttons-list {
   margin-bottom: 50px;
   display: flex;
@@ -333,11 +332,10 @@ address .item:not(:last-child) {
 
 .buttons-list .button {
   min-height: 38px;
-  
 }
 
 .buttons-list li:not(:last-child) {
-margin-right: 8px;
+  margin-right: 8px;
 }
 
 .works-list,
@@ -362,10 +360,9 @@ margin-right: 8px;
   padding-left: 24px;
 }
 
-.works-item .text{
+.works-item .text {
   padding-bottom: 20px;
 }
-
 
 /* Тимчасова заглушка */
 .no-show {
