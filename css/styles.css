@@ -60,7 +60,7 @@ img {
 }
 
 .nav {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .nav .link:hover,
@@ -196,17 +196,16 @@ section.hero {
 
 .about .text {
   width: 270px;
+  line-height: 1.71;
 }
 
-.about h3 {
+.about .title {
+  margin-bottom: 10px;
+
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
-}
-
-.about p {
-  line-height: 1.71;
 }
 
 .competence .main-title,
@@ -214,7 +213,7 @@ section.hero {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .staff {
@@ -237,12 +236,13 @@ section.hero {
 
 .staff-item .title {
   font-weight: 500;
-  margin: 30px 0 10px 0;
+  margin-bottom: 10px;
 }
 
-.staff-item .text {
-  padding-bottom: 30px;
+.staff .content{
+  padding: 30px 0;
 }
+
 
 /* Футер */
 
@@ -347,21 +347,15 @@ address .item:not(:last-child) {
 }
 
 .work-border {
+  padding: 20px 0 20px 24px;
+
   border-width: 0 1px 1px 1px;
   border-color: #eeeeee;
   border-style: solid;
 }
 
 .works-item .title {
-  padding: 20px 0 0 24px;
-}
-
-.works-item .text {
-  padding-left: 24px;
-}
-
-.works-item .text {
-  padding-bottom: 20px;
+  margin-bottom: 4px;
 }
 
 /* Тимчасова заглушка */
